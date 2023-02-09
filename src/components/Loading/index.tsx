@@ -8,7 +8,7 @@ export function Loading({ message }: LoadingProps) {
 	return (
 		<LoadingContainer>
 			<SpinnerLoading color="#FFFF" size={20} />
-			<span>{message}...</span>
+			<span>{message}</span>
 		</LoadingContainer>
 	);
 }

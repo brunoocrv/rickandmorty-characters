@@ -1,19 +1,19 @@
 import { styled } from '@stitches/react';
 
-export const Container = styled('main', {
+export const Container = styled('div', {
+	width: '100%',
 	display: 'flex',
+	flexDirection: 'column',
 	alignItems: 'center',
-	justifyContent: 'center',
-	background: 'red',
-	width: '19.37rem',
-	height: '11.25rem',
-	cursor: 'pointer',
+	paddingTop: '5rem',
+	gap: 30,
 
-	'&:hover': {
-		opacity: 0.8,
+	p: {
+		fontSize: '$heading',
 	},
 
-	h1: {
-		fontSize: '$subtitle',
+	img: {
+		width: '40rem',
+		height: '13rem',
 	},
 });
